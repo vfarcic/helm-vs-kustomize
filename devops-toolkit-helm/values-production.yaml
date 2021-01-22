@@ -1,0 +1,11 @@
+ingress:
+  host: helm-production.devopstoolkitseries.com
+# resources:
+#   enabled: true
+#   data:
+#     limits:
+#       cpu: 100m
+#       memory: 256Mi
+#     requests:
+#       cpu: 80m
+#       memory: 128Mi

@@ -1,0 +1,11 @@
+image:
+  repository: vfarcic/devops-toolkit-series
+  tag: latest
+  pullPolicy: IfNotPresent
+ingress:
+  enabled: true
+  host: helm.devopstoolkitseries.com
+namespace: helm
+# resources:
+#   enabled: false
+#   data: {}
