@@ -1,0 +1,4 @@
+{{- if .Values.resources.enabled }}
+        resources:
+{{ toYaml .Values.resources.data | indent 12 }}
+{{- end }}
