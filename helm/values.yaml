@@ -5,7 +5,6 @@ image:
 ingress:
   enabled: true
   host: helm.devopstoolkitseries.com
-namespace: helm
 # resources:
 #   enabled: false
 #   data: {}
